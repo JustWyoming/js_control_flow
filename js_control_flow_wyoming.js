@@ -23,7 +23,7 @@ for (var i = 0, maxLength = 6; i < words.length; i++) {
 
 //grade.js
 
-var grade = Math.round(Math.random*100);
+var grade = Math.round(Math.random()*100);
 
  if (grade >= 90) {
         console.log("your grade is A");
